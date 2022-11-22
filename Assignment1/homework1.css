@@ -1,0 +1,63 @@
+body {
+  background-color: #6b728e;
+}
+
+table,
+th,
+td {
+  table-layout: fixed;
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 70%;
+}
+
+td {
+  text-align: center;
+}
+
+tbody {
+  background-color: #f2f2f2;
+}
+
+thead {
+  background-color: black;
+  color: white;
+}
+
+.twenty {
+  width: 20%;
+}
+
+.forty {
+  width: 40%;
+}
+
+#name {
+  font-weight: bold;
+}
+
+.search {
+  height: 20px;
+  border: none;
+  width: 400px;
+  font-size: 16px;
+  float: left;
+  margin: 10px;
+  outline: none;
+  background-color: whitesmoke;
+}
+
+.bar {
+  margin: 0 auto;
+  width: 575px;
+  height: 45px;
+  border-radius: 30px;
+  border: 1px solid #dcdcdc;
+  background-color: whitesmoke;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
